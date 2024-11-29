@@ -42,6 +42,12 @@ const talks = (await getCollection('talks')).sort(
 			ul li:first-child img {
 				width: 100%;
 			}
+
+			ul li:not(:first-child) img {
+				max-height: 234px;
+				overflow: cover;
+			}
+
 			ul li:first-child .title {
 				font-size: 2.369rem;
 			}
@@ -93,7 +99,7 @@ const talks = (await getCollection('talks')).sort(
 					{
 						talks.map((talk) => (
 							<li>
-								<a href={`/talks/${talk.slug}/`}>
+								<a href={`//${talk.slug}/`}>
 									<img width={720} height={360} src={talk.data.heroImage} alt="" />
 									<h4 class="title">{talk.data.title}</h4>
 									<p class="date">

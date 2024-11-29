@@ -2,7 +2,7 @@
 title: 'How to implement ngrx-router-stores'
 description: 'Implementing Router Store in NgRx'
 pubDate: 'Jun 16 2020'
-heroImage: 'https://dev-to-uploads.s3.amazonaws.com/i/lh5q8qmnk68ydu5qquq9.jpg'
+heroImage: '/ngrx-router-store.png'
 ---
 
 
