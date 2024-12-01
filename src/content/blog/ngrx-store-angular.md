@@ -1,5 +1,5 @@
 ---
-title: 'How to implement ngrx-router-stores'
+title: 'How to implement ngrx-router-store'
 description: 'Implementing Router Store in NgRx'
 pubDate: 'Jun 16 2020'
 heroImage: '/ngrx-router-store.png'
