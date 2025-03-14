@@ -120,16 +120,6 @@ Angular provides schematics to migrate to signals
 
 tip: even migration would work with a signal without default value, is recommended to add it
 
-```javascript
-// TODO: Notes from signal input migration:
-
-// Input is initialized to `undefined` but type does not allow this value.
-
-// This worked with `@Input` because your project uses `--strictPropertyInitialization=false`.
-```
-
-![signals.gif](/.attachments/signals-8e24da01-264e-4b6c-a693-7b259dbc0f91.gif)
-
 - [ouputs](https://angular.dev/reference/migrations/outputs) `ng generate @angular/core:output-migration`
 
 - [queries](https://angular.dev/reference/migrations/signal-queries) `ng generate @angular/core:signal-queries-migration`
