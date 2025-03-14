@@ -151,4 +151,3 @@ tip: even migration would work with a signal without default value, is recommend
 - https://www.youtube.com/@deborah_kurata
 - https://angular.dev/guide/signals
 - https://www.youtube.com/@Angular
-- https://angular.love/signal-store-ngxs-elevating-flexibility-in-state-management
