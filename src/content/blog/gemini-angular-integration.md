@@ -57,6 +57,8 @@ Once installed, you can start the CLI by running:
 gemini
 ```
 
+![A screenshot of the Gemini CLI in action, showing a user interacting with the command-line interface. The user has asked for a list of files, and the CLI has responded with a tree structure of the current directory.](/gemini.png)
+
 ## Gemini Free Tier
 
 Google offers a free tier for the Gemini API, which is great for getting started and for development purposes. The free tier provides access to models like Gemini 1.0 Pro and Gemini 1.5 Flash with certain usage limits. For example, the free tier for Gemini 1.5 Flash allows for up to 1,500 requests per day. You can get started and generate an API key from [Google AI Studio](https://aistudio.google.com/).
