@@ -1,5 +1,6 @@
 ---
 title: 'My Angular Development Setup with Claude Code and Warp in 2026'
+canonical: "https://www.salimchemes.com/blog/angular-claude-warp-post/"
 description: "How I use CLAUDE.md, Angular Agent Skills, and Warp's multi-agent workflow to build Angular features faster — including where the setup breaks and how to fix it."
 pubDate: 'May 05 2026'
 heroImage: '/hero-angular-claude.png'
