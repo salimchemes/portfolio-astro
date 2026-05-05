@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://salimchemes.com',
+	site: 'https://www.salimchemes.com',
 	integrations: [mdx(), sitemap()],
 });
