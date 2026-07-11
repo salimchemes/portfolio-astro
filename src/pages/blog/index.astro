@@ -44,8 +44,10 @@ const posts = (await getCollection('blog')).sort(
 			}
 
 			ul li:not(:first-child) img {
-				max-height: 160px;
-				overflow: cover;
+				height: 160px;
+				width: 100%;
+				object-fit: cover;
+				object-position: center;
 			}
 
 			ul li:first-child .title {
