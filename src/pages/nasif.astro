@@ -18,7 +18,9 @@ import BaseHead from '../components/BaseHead.astro';
 </html>
 
 <style is:global>
+	html,
 	body {
+		height: 100%;
 		margin: 0;
 		background: #2337ff;
 	}
@@ -26,13 +28,15 @@ import BaseHead from '../components/BaseHead.astro';
 
 <style>
 	.welcome {
-		min-height: 100vh;
+		/* anchor to the viewport with fixed positioning instead of vh/vw,
+		   which some TV browsers mishandle and reflow endlessly */
+		position: fixed;
+		inset: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		box-sizing: border-box;
-		/* keep content clear of TV overscan cropping */
-		padding: 8vh 8vw;
+		padding: 5%;
 	}
 
 	.welcome-title {
@@ -40,8 +44,7 @@ import BaseHead from '../components/BaseHead.astro';
 		flex-direction: column;
 		align-items: center;
 		gap: 1.5rem;
-		/* large, bold sizing so it reads clearly from across a room */
-		font-size: clamp(3.5rem, 12vw, 11rem);
+		font-size: 6rem;
 		line-height: 1.05;
 		font-weight: 900;
 		letter-spacing: 0.02em;
