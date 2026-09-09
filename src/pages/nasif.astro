@@ -8,38 +8,31 @@ import BaseHead from '../components/BaseHead.astro';
 		<BaseHead title="Bienvenido" description="Bienvenido Nasif!!" />
 	</head>
 	<body>
-		<main class="welcome">
+		<div class="welcome">
 			<h1 class="welcome-title">
 				<span>BIENVENIDO</span>
 				<span class="highlight">NASIF!!</span>
 			</h1>
-		</main>
+		</div>
 	</body>
 </html>
 
-<style>
-	html,
+<style is:global>
 	body {
-		height: 100%;
-	}
-
-	body {
-		background: none;
-	}
-
-	.welcome {
-		/* override the global `main` width/margin constraint to fill the viewport */
-		width: 100vw;
-		max-width: none;
 		margin: 0;
-		height: 100vh;
+		background: #2337ff;
+	}
+</style>
+
+<style>
+	.welcome {
+		min-height: 100vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		box-sizing: border-box;
 		/* keep content clear of TV overscan cropping */
 		padding: 8vh 8vw;
-		background: #2337ff;
 	}
 
 	.welcome-title {
